@@ -1,1 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAY Technology - Phone, PC, and Tech Support Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>MAY Technology</h1>
+            </div>
+            <nav class="nav">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="tel:(424)249-9389" class="nav-link call-btn">Call</a>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-headline">Phone, PC, and Tech Support Services</h2>
+            <p class="hero-subheadline">Affordable local help for repairs, setups, upgrades, and custom PC builds.</p>
+            <p class="hero-trust">Local tech repair and setup support</p>
+            
+            <div class="hero-buttons">
+                <a href="tel:(424)249-9389" class="btn btn-primary">Call or Text</a>
+                <a href="mailto:contact@maytechnology.tech" class="btn btn-secondary">Email Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Selector Section -->
+    <section class="service-selector">
+        <h3 class="section-title">What We Offer</h3>
+        <div class="service-buttons">
+            <button class="service-btn" onclick="scrollToService('repair')">
+                <span class="icon">🔧</span>
+                <span>Electronics Repair</span>
+            </button>
+            <button class="service-btn" onclick="scrollToService('pcbuilding')">
+                <span class="icon">🖥️</span>
+                <span>PC Building</span>
+            </button>
+            <button class="service-btn" onclick="scrollToService('upgrades')">
+                <span class="icon">⚡</span>
+                <span>Upgrades</span>
+            </button>
+            <button class="service-btn" onclick="scrollToService('setup')">
+                <span class="icon">📱</span>
+                <span>Device Setup</span>
+            </button>
+            <button class="service-btn" onclick="scrollToService('software')">
+                <span class="icon">💻</span>
+                <span>Software & IT Support</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Services Sections -->
+    <section id="services" class="services">
+        
+        <!-- Electronics Repair -->
+        <div id="repair" class="service-card">
+            <h4 class="service-name">Electronics Repair</h4>
+            <ul class="service-list">
+                <li>Phone screen replacement</li>
+                <li>Battery replacement</li>
+                <li>Charging port replacement</li>
+                <li>Laptop repair</li>
+                <li>Console cleaning</li>
+                <li>Device diagnostics</li>
+            </ul>
+        </div>
+
+        <!-- PC Building -->
+        <div id="pcbuilding" class="service-card">
+            <h4 class="service-name">PC Building Services</h4>
+            <ul class="service-list">
+                <li>Custom gaming PCs</li>
+                <li>Budget office PCs</li>
+                <li>RGB setup/builds</li>
+                <li>BIOS setup</li>
+                <li>Driver installation</li>
+                <li>Windows installation</li>
+            </ul>
+        </div>
+
+        <!-- Upgrade Services -->
+        <div id="upgrades" class="service-card">
+            <h4 class="service-name">Upgrade Services</h4>
+            <ul class="service-list">
+                <li>SSD upgrades</li>
+                <li>RAM upgrades</li>
+                <li>GPU upgrades</li>
+                <li>CPU cooler upgrades</li>
+                <li>Storage expansion</li>
+                <li>Fan installation</li>
+            </ul>
+        </div>
+
+        <!-- Device Setup -->
+        <div id="setup" class="service-card">
+            <h4 class="service-name">Device Setup Services</h4>
+            <ul class="service-list">
+                <li>New phone setup</li>
+                <li>Data transfer</li>
+                <li>iPhone to Android transfer</li>
+                <li>Android to iPhone transfer</li>
+                <li>New laptop setup</li>
+                <li>Printer setup</li>
+            </ul>
+        </div>
+
+        <!-- Software & IT Support -->
+        <div id="software" class="service-card">
+            <h4 class="service-name">Software & IT Support</h4>
+            <ul class="service-list">
+                <li>Windows reinstall</li>
+                <li>Driver troubleshooting</li>
+                <li>Software installation</li>
+                <li>Performance optimization</li>
+                <li>Wi-Fi troubleshooting</li>
+                <li>Account setup</li>
+                <li>Backup setup</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <h3 class="section-title">How It Works</h3>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h5>Contact MAY Technology</h5>
+                <p>Reach out via phone, text, or email</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h5>Send Device Details</h5>
+                <p>Tell us what needs fixing or setting up</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h5>Get Estimated Price</h5>
+                <p>We'll give you a quick estimate</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h5>Device Gets Fixed</h5>
+                <p>Device gets fixed, set up, or upgraded</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h3 class="section-title">Get in Touch</h3>
+        
+        <div class="contact-info">
+            <div class="contact-method">
+                <h5>Call or Text</h5>
+                <a href="tel:(424)249-9389" class="contact-link">(424) 249-9389</a>
+            </div>
+            <div class="contact-method">
+                <h5>Email</h5>
+                <a href="mailto:contact@maytechnology.tech" class="contact-link">contact@maytechnology.tech</a>
+            </div>
+            <div class="contact-method">
+                <h5>Website</h5>
+                <a href="https://maytechnology.tech" class="contact-link">maytechnology.tech</a>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+            <h4>Send us a message</h4>
+            
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Device or Service Needed</label>
+                <input type="text" id="service" name="service" placeholder="e.g., iPhone screen repair, PC build" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+            <p class="form-note">We'll get back to you as soon as possible.</p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h4>MAY Technology</h4>
+            <p>Phone repair • PC builds • Upgrades • Device setup • Tech support</p>
+            
+            <div class="footer-contact">
+                <p><a href="mailto:contact@maytechnology.tech">contact@maytechnology.tech</a></p>
+                <p><a href="tel:(424)249-9389">(424) 249-9389</a></p>
+            </div>
+
+            <p class="copyright">&copy; 2026 MAY Technology</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
